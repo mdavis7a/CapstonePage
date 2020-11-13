@@ -114,8 +114,9 @@ html {
 }
 
 body {
-  font-family: Open Sans, sans-serif;
-  font-weight: lighter;  
+  font-family: proxima-nova, sans-serif;
+  font-size: 100%;
+  font-weight: normal;  
   line-height: 1.5;
   max-width: 90em;
   margin: auto;
@@ -129,39 +130,48 @@ img {
 }
 
 h1 {
-  color: #fff;
-  font-size: 3em;
-  line-height: 1em;
+  color: #f6841f;
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;  
+  line-height: 2.25em;
   text-align: left;
   max-width: 66%;
   padding: 0 1em;
+  text-transform: uppercase;  
+  letter-spacing: 2px;
 }
 
 h2 {
-  font-weight: lighter;  
-  font-style: italic; 
-  color: black;
-  text-align: right;
+  color: #484848;
+  font-family: heuristicabold, serif;
+  font-size: 2.5em;
+  font-weight: bold;  
+  font-style: ; 
+  text-align: left;
   padding: 0 1em;
 }
 
 h3 {
-  font-weight: lighter; 
-  color: #006638; 
-  font-size: 5em;
-  text-align: center;
+  color: #484848;
+  font-family: heuristicabold, serif;
+  font-size: 1.5em;
+  font-weight: bold;  
+  font-style: ; 
+  text-align: left;
   padding: 0 1em;
-  text-transform: uppercase;  
-  letter-spacing: 1px;
-  text-decoration: none;
 }
 
 h4 {
-  font-weight: lighter;  
-  text-align: center;
-  color: #606060;
-  padding: 0 3em;
-  margin: 0 5% 3em 5%;
+  color: #484848;
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.25em;
+  line-height: 2em;
+  text-align: left;
+  max-width: 66%;
+  padding: 0 1em;
+  text-transform: ;  
+  letter-spacing: 1px;
 }
 
 h5 {
@@ -189,13 +199,6 @@ blockquote {
   padding: 0 7em;
 }
 
-form {
-  font-weight: bold;  
-  text-align: left;
-  padding: 0 7em;
-}
-
-
 /* Page Header */
 
 .page-header {
@@ -211,8 +214,9 @@ form {
 
 .page-header img{
   float: left;
-  width: 33%;
+  width: 20%;
   margin: 2em 4em;
+
 }
 
 .left-search {
@@ -230,7 +234,8 @@ form {
 
 .main-nav a {
   color: #888; 
-  font-size: 1.5em;
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.25em;
   font-weight: normal;  
   text-decoration: none;
 }
@@ -278,7 +283,8 @@ li.dropdown {
 
   }
 .main-article h3 {
-  text-align: center;
+  padding: 0 6em;
+  text-align: left;
   text-decoration: none;
 }
 
@@ -347,7 +353,7 @@ input[type=text] {
 /* Footer */
 
 .page-footer {
-  background-color: #59AA47;
+  background-color: #fff;
   color: #fff;
   top: 0;
   left:0;
@@ -363,7 +369,7 @@ input[type=text] {
   
 .footer-logo img{
   float: left;
-  width: 25%;
+  width: 20%;
   padding: 1em 1em 0 0;
   margin: 2em 3em;
 }
@@ -385,7 +391,7 @@ input[type=text] {
 }
 
 .page-footer p{
-  color: #fff;
+  color: #888;
   margin: 0;
   text-decoration: none;
   text-align: right;
