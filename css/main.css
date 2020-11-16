@@ -306,6 +306,10 @@ li.dropdown {
   text-align: left;
 }
 
+a:link {
+  text-decoration: none;
+}
+ 
 .school {
   position: relative;
   width: 50%;
