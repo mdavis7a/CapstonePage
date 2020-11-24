@@ -190,6 +190,7 @@ blockquote {
 }
 
 .flex-container {
+  flex-flow: row wrap;
   display: flex;
 }
 
@@ -201,20 +202,33 @@ blockquote {
   flex-basis: 50%;
 }
 
+figure {
+  margin: 0;
+  padding: 1em;
+}
+
 figure img {
   width: 100%;
+}
+
+figcaption {
+  text-align: center;
 }
 
 /* Page Header */
 
 .page-header {
   color: #fff;
+  background-color: #fff;
   top: 0;
   left:0;
   width: 100%;
   text-align: left;
   overflow: auto;
   z-index: 100;
+  position: fixed;
+  max-width: 90em;
+  width: 100%;
 }
 
 .page-header img{
@@ -289,7 +303,7 @@ li.dropdown {
 
 /* Main Section*/
 .main-article {
-  padding: 3em 10em;
+  padding: 14em 10em 3em 10em;
 }
 
 .main-article h3 {
