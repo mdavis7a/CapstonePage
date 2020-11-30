@@ -212,7 +212,10 @@ figure img {
 }
 
 figcaption {
+  font-style: italic; 
+  color: #484848;
   text-align: center;
+  text-decoration: none;
 }
 
 /* Page Header */
@@ -232,13 +235,8 @@ figcaption {
 }
 
 .page-header img{
-  width: 20%;
-  margin: 2em 4em 0 4em;
-}
-
-.left-search {
-  float: right;
-  margin: 5em 5em 0em 0em;
+  width: 15%;
+  margin: 1em 2em 0 4em;
 }
 
 .main-nav {
@@ -274,36 +272,9 @@ figcaption {
   text-decoration: none;
 }
 
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdownlist {
-  background-color: #006638;
-  display: none;
-  min-width: 120px;
-  position: absolute;
-}
-
-.dropdownlist a {
-  color: #fff;
-  text-align: left;
-  text-decoration: none;
-  display: block;
-  padding: 0.5em;
-}
-
-  .dropdownlist a:hover {
-    color: #F37129;
-  }
-
-  .dropdown:hover .dropdownlist {
-      display: block;
-  }
-
 /* Main Section*/
 .main-article {
-  padding: 14em 10em 3em 10em;
+  padding: 11em 10em 3em 10em;
 }
 
 .main-article h3 {
@@ -323,34 +294,10 @@ li.dropdown {
 a:link {
   text-decoration: none;
 }
- 
-.school {
-  position: relative;
-  width: 50%;
-  float: left;
-  padding: 1em;
-  text-align: center;
-}
 
 .clearfix a {
   font-size: .75em;
   color: #000;
-}
-
-.school:hover a h6 {
-  background-color: #333;
-  text-decoration: none;
-}
-
-.school img {
-  position: relative;
-  z-index: -10;
-  width: 75%;
-  text-align: center;
-}
-
-.form {
-  text-align: center;
 }
 
 /* About Page Main Styles */
