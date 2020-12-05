@@ -240,12 +240,12 @@ figcaption {
 }
 
 .main-nav {
-  background-color: #000;
+  background-color: #006838;
   color: #fff;
 }
 
 .main-nav a {
-  color: #888;
+  color: #999;
   font-family: proxima-nova, sans-serif;
   font-size: 1em;
   font-weight: normal;  
@@ -345,7 +345,7 @@ input[type=text] {
 /* Footer */
 
 .page-footer {
-  background-color: #000;
+  background-color: #303030;
   color: #fff;
   top: 0;
   left:0;
@@ -362,14 +362,14 @@ input[type=text] {
 }
 
 .page-footer h4{
-  color: #999;
+  color: #fff;
   margin: 0;
   font-weight: bold;  
   text-decoration: none;
 }
 
 .page-footer p{
-  color: #999;
+  color: #fff;
   margin: 0;
   text-align: right;
   text-decoration: none;
